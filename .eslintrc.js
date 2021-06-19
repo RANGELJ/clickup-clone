@@ -13,5 +13,6 @@ module.exports = { // eslint-disable-line
     },
     rules: {
         indent: ['error', 4],
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
     },
 }

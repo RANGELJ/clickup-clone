@@ -1,11 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import PageWithToolbars from './atoms/PageWithToolbars'
+import './index.css'
 
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <PageWithToolbars
+            leftToolbarWidth={200}
+            topToolbarHeight={60}
+        />
     </React.StrictMode>,
     document.getElementById('root')
 );
