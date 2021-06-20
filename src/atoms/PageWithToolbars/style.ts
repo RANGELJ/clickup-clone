@@ -15,3 +15,15 @@ export const PageFrame = styled.div<{
         "topToolbar topToolbar"
         "leftToolbar main";
 `
+
+export const TopToolbarFrame = styled.div`
+    grid-area: topToolbar;
+`
+
+export const LeftToolbarFrame = styled.div`
+    grid-area: leftToolbar;
+`
+
+export const ChildrenFrame = styled.div`
+    grid-area: main;
+`

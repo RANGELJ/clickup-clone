@@ -1,5 +1,10 @@
 import React from 'react'
-import { PageFrame } from './style'
+import {
+    PageFrame,
+    TopToolbarFrame,
+    LeftToolbarFrame,
+    ChildrenFrame,
+} from './style'
 
 type Props = {
     leftToolbarWidth: number;
@@ -14,8 +19,9 @@ const PageWithToolbars: React.FC<Props> = ({
         leftToolbarWidth={leftToolbarWidth}
         topToolbarHeight={topToolbarHeight}
     >
-        <div></div>
-        <div></div>
+        <TopToolbarFrame />
+        <LeftToolbarFrame />
+        <ChildrenFrame />
     </PageFrame>
 )
 
